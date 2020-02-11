@@ -52,5 +52,16 @@ WPS中文语言包和缺失字体
 
     由于新版微信用三栏显示了公众号的历史文章，所以不会出现之前的版本中由于wine崩溃而导致历史文章无法查看的尴尬情况。  
     ![公众号](_v_images/20200211222809764_2071566260.png)
+### 依赖问题
+更新：  
+按照上述方法安装其他程序会显示deepin-wine的依赖未解决，
+```
+# 卸载
+sudo apt install -f
+# 重装
+wget -O- https://deepin-wine.i-m.dev/setup.sh | sh
+# 安装微信
+sudo apt-get install deepin.com.wechat
+```
 ### 尚存的问题：  
 1. 不能打开小程序
