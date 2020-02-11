@@ -24,6 +24,7 @@
     sudo dpkg -i --force-all deepin.com.wechat_2.6.8.65deepin0_i386.deb
     ```
 4. 解决不能发图片的问题
+    [参考链接，有改动](https://github.com/wszqkzqk/deepin-wine-ubuntu/issues/32)
     ```bash
     sudo dpkg -i --force-all libjpeg62-turbo_1.5.2-2+b1_i386.deb
     ```
