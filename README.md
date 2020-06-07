@@ -1,5 +1,11 @@
 # LinuxStaff
+## 搜狗输入法
+参考https://www.manjaro.top/?id=12  
+为避免失效，上传了网页Manjaro Linux安装搜狗输入法_所有文章_蓝调小站.mhtml
 ## WPS
+```bash
+sudo pacman -S wps-office
+```
 WPS中文语言包和缺失字体
 下载WPS.zip  
 将mui中的zh_CN复制到/usr/lib/office6/mui，点击右上角的A切换语言  
